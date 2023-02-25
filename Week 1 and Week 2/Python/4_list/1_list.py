@@ -17,3 +17,8 @@
 # the_list = [True, 1, 2.1, 2e3j, "Yash Patel"]
 # print(the_list)
 # print(type(the_list))
+
+# ----------------------------------------------------------------
+# list() Constructor
+the_list = list((True, 1, 2.1, 2e3j, "Yash Patel"))
+print(the_list)
