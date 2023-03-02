@@ -13,5 +13,9 @@ dict1 = {
 # print(dict1)
 
 # del()
-del dict1['Hobby']
+# del dict1['Hobby']
+# print(dict1)
+
+# clear()
+dict1.clear()
 print(dict1)
