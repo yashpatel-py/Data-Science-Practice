@@ -1,3 +1,8 @@
+# Creating simple fucntion
+# def my_func():
+#     print('Hello My 1st Fucntion')
+
+# Arguments
 # def my_func(name, age):
 #     print('My name is ' + name + ", and i am " + age + " year old")
 
@@ -16,7 +21,22 @@
 # details('yash', 'parth', 'manav', 'dhruv')
 
 
-def details2(**name):
-    pass
+# def details2(**name):
+#     pass
 
-details2(f_name = "yash", l_name="Patel")
+# details2(f_name = "yash", l_name="Patel")
+
+# passing a list as an argument.
+# def mu_func_list(names):
+#     for x in names:
+#         print(x)
+
+# list_names = ["Yash Patel", "Dhruv Sutail", "Khushi Jani", "Shreya Patel"]
+
+# mu_func_list(list_names)
+
+# return value
+def my_return_func(x):
+    return 10 * x
+
+print(my_return_func(5000))
