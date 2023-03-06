@@ -9,5 +9,5 @@ import os
 #   print("The file does not exist")
 
 # Delete Folder
-# import os
-# os.rmdir("demo_folder")
+import os
+os.rmdir("demo_folder")
