@@ -5,7 +5,7 @@ import numpy as np
 # print(a[1])
 
 # two dimensional
-# a = np.array([[1,2], [3,2]])
+# a = np.array([[1,2], [3,2], [88,93]])
 # print(a.ndim)
 
 # a = np.array([[1,2], [3,2]], dtype=np.float64)
@@ -26,5 +26,39 @@ import numpy as np
 
 # b = np.arange(1,6,2)
 # print(b)
-b = np.arange(1,6,2)
-print(b)
+
+# b = np.arange(1,6,2)
+# print(b)
+
+# c = np.linspace(1,5,10)
+# print(c)
+
+# print(a.shape)
+# d = a.reshape(2,3)
+# print(d.shape)
+
+# print(a.ravel())
+
+# print(a.min())
+
+# print(a.max())
+
+# print(a.sum())
+# print(a.sum(axis=0))
+# print(a.sum(axis=1))
+
+# print(np.sqrt(a))
+
+# print(np.std(a))
+
+# -------------------------------------
+
+a = np.array([[1, 2], [3, 2]])
+b = np.array([[4, 3], [6, 7]])
+
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+
+print(a.dot(b))
