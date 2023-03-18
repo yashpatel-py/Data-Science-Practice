@@ -1,0 +1,18 @@
+1. Create array.
+2. Create 2 dimension array.
+3. How know the dimensions of the array ?
+4. How to change the data type of the array ?
+5. How to know size of the array ?
+6. How to know shape of the array ?
+7. What does itemsize return?
+8. How to create matrix with zeros and once ?
+9. What is arange function ?
+10. What is linspace fucntion ?
+11. Rehsape the exesting array.
+12. Flat the array.
+13. Sum of the array.
+14. Find the minimum value and maximum value of the array.
+15. Sum only row of the array.
+16. Sum only column of the array.
+17. Find the sqrt of the array.
+18. Do some basic math operation on array.
